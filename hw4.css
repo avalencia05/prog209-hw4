@@ -1,0 +1,50 @@
+#FirstPage{
+    padding: 50px 30px;
+    margin: 50px auto;
+    height: 350px;
+    width: 600px;
+    background-color: #ffcccc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    color: white;
+    }
+    
+    
+    #SecondB {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 100%;
+    padding: 3px 12px;
+    cursor: default;
+    color: light black;
+    background: light gray
+    
+    
+    }
+    
+    
+    
+    
+    #FirstB {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 100%;
+    padding: 3px 12px;
+    cursor: default;
+    color: light black;
+    background: light gray
+    
+    
+    }
+    
+    #SecondPage {
+    display:none;
+    padding: 25px 15px;
+    margin: 20px auto;
+    height: 350px;
+    width: 600px;
+    background-color: Purple;
+    font-size: 45px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    
+    
+    }
