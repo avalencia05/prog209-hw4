@@ -1,37 +1,39 @@
+
+
 //Define variables
 const
-    startBtn = document.querySelector("#FirstB"),
-	changeBtn = document.querySelector("#SecondB");
+    FirstBBtn = document.querySelector("#FirstB"),
+	SecondBBtn = document.querySelector("#SecondB");
 	
 //Let variable array 
-let wordArray = [];
+let MyArray = [];
  
 
 // Function that tells the button what to do 
-startBtn.addEventListener("click",myFunction,true);
-changeBtn.addEventListener("click",secondChangeWord,true);
-changeBtn.style.display = "none";
+FirstBBtn.addEventListener("click",myFirstFunction,true);
+SecondBBtn.addEventListener("click",secondChangeWord,true);
+SecondBBtn.style.display = "none";
 
 
 
-function myFunction(){
+function myFirstFunction(){
 // collecting
-	for(let i = 0; i < 3; i++ ){
-		wordArray.push(prompt('Please enter a word'));
+	for(let MyIndex = 0; MyIndex < 3; MyIndex++ ){
+		MyArray.push(prompt('Please enter a word'));
 	}
 
 	{	
  //displaying 
 		let out = "<ul>"
-		for(let i = 0;  i <3;  i ++){
-			out = out + "<li>" + wordArray[i] + "</li>"
+		for(let MyIndex = 0;  MyIndex <3;  MyIndex ++){
+			out = out + "<li>" + MyArray[MyIndex] + "</li>"
 
 		}
 		out = out + "</ul>"
 		document.getElementById("words").innerHTML = out
-		changeBtn.style.display = "block";
-    startBtn.style.display = "none";
-    startBtn.style.display = "show";
+		SecondBBtn.style.display = "block";
+    FirstBBtn.style.display = "none";
+    FirstPage.style.display = "show";
 SecondPage.style.display = "none";
 	}
 	
